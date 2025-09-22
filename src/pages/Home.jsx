@@ -14,7 +14,7 @@ function Home(){
                         우작이의 작업 공방
                     </motion.div>
                     <motion.div id='home-intro_text' initial={{opacity: 0}} whileInView={{opacity: 1, y:-20}} viewport={{once:true,amount:0.2}} transition={{duration: 1,delay:0.2}}>
-                        선린인터넷고등학교 전공동아리 TAPIE의<br></br>프론트엔드 개발자 우작이라고 합니다.
+                        선린인터넷고등학교 전공동아리 TAPIE의<br></br>프론트엔드 개발자 우작입니다.
                     </motion.div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ function Home(){
                     <StackCard stackname = "CSS"/>
                     <StackCard stackname = "JS"/>
                     <StackCard stackname = "REACT"/>
-                    <StackCard stackname = "SOLID"/>
+                    <StackCard stackname = "SOLIDJS"/>
                     <StackCard stackname = "PYTHON"/>
                     <StackCard stackname = "C"/>
                 </div>
