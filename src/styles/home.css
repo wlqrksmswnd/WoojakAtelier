@@ -1,0 +1,76 @@
+#home-woojak{
+    display: block;
+    width: 20.8rem;
+    justify-content: center;
+}
+
+.home-container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    gap: 20rem;
+    padding: 0px 10rem;
+}
+
+.home-intro_container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    gap: 3rem;
+}
+
+.home-intro_text_container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#home-intro_text_title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#home-intro_text{
+    font-size: 3rem;
+    font-weight: medium;
+    text-align: center;
+    
+}
+
+.home-tech_stack_container{
+    display: flex;
+    box-sizing: border-box;
+    height: fit-content;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+}
+
+#home-tech_stack_title{
+    font-size: 3.8rem;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+}
+
+
+.home-stack_container{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
