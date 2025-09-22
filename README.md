@@ -1,2 +1,1 @@
-# improved-giggle
 우작이의 작업 공방 웹사이트
