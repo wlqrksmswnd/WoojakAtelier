@@ -2,10 +2,11 @@
     width: 100%;
     position: sticky;
     top: 0;
-    backdrop-filter: grayscale(40%) blur(5px);
+    backdrop-filter: grayscale(40%) blur(1.5rem);
     padding: 15px 0px;
     margin-bottom: 1rem;
     z-index: 100;
+    background: none;
 }
 
 .header-container{

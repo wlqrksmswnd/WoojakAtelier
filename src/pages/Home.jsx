@@ -23,7 +23,7 @@ function Home(){
                 <div className='home-stack_container'>
                     <StackCard stackname = "HTML"/>
                     <StackCard stackname = "CSS"/>
-                    <StackCard stackname = "JS"/>
+                    <StackCard stackname = "JAVASCRIPT"/>
                     <StackCard stackname = "REACT"/>
                     <StackCard stackname = "SOLIDJS"/>
                     <StackCard stackname = "PYTHON"/>
