@@ -9,7 +9,7 @@ function Header(){
     return(
         <header className="header">
             <div className='header-container'>
-                <img id="header-yeppi_logo" src='/imgs/yeppi_logo.jpg' onClick={()=>navigate('/')}></img>
+                <img id="header-yeppi_logo" src='/imgs/yeppi_logo.png' onClick={()=>navigate('/')}></img>
                 <div className='header-button_container'>
                     <div id={isHome ? 'active':'disabled'} onClick={() => navigate('/')}>소개</div>
                     <div id={isWork ? 'active':'disabled'} onClick={() => navigate('/works')}>작품</div>
