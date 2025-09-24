@@ -15,7 +15,10 @@ export default function Yeppi(){
     return(
         <motion.section whileHover={{scale:1.05}}>
             <motion.div className='people-container'
-             initial={{opacity: 0}} whileInView={{opacity: 1, y:-10}} viewport={{once:true,amount:0.2}} transition={{duration: 1,delay:0.1}}>
+             initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.6 }}
+                transition={{ duration: 0.6 }}>
                 <div className='people-intro_container'>
                     <div className='yeppi-img_container'>
                         <img id='thanks-profile_img' src='/profile-img/yeppi_profile.png'></img>
