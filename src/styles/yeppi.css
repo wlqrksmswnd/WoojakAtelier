@@ -1,0 +1,9 @@
+#medal{
+    height: 10.7rem;
+}
+
+.yeppi-img_container{
+    display: flex;
+    padding-left: 12.5rem;
+    gap: 2.8rem;
+}

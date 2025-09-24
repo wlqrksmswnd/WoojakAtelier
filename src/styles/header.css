@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     backdrop-filter: grayscale(40%) blur(1.5rem);
-    padding: 1.5rem 0px;
+    padding: 1.5rem 0;
     margin-bottom: 1rem;
     z-index: 100;
     background: none;
@@ -19,7 +19,6 @@
     height: fit-content;
     align-items: center;
     justify-content: space-between;
-    /* justify-content: space-between; */
     padding: 0px 9rem;
 }
 
