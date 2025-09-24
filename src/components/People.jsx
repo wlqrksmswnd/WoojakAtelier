@@ -23,7 +23,6 @@ export default function People({name}){
                     <ReactMarkdown>
                         {content.body}
                     </ReactMarkdown>
-                    
                 </div>
             </motion.div>
         </motion.section>

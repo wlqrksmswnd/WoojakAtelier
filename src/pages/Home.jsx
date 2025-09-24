@@ -31,14 +31,6 @@ function Home(){
                 </div>
             </motion.div>
             </motion.section>
-            <motion.section className='home-game_container'>
-                <div id='home-game_record_title'></div>
-                <div className='home-game_lists'>
-                    <div className='home-game_list_1'></div>
-                    <div className='home-game_list_2'></div>
-                    <div className='home-game_list_3'></div>
-                </div>
-            </motion.section>
         </div>
         
     )

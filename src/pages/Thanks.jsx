@@ -1,4 +1,5 @@
-import People from '../components/people'
+// import People from '../components/People'
+import People from '../components/People'
 import Yeppi from '../components/Yeppi'
 import '../styles/thanks.css'
 import { motion } from 'framer-motion'
