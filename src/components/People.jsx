@@ -17,7 +17,7 @@ export default function People({name}){
              initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                transition={{ duration: 0.6,delay:0.4}}>
+                transition={{ duration: 0.6, delay:0.4}}>
                 <div className='people-intro_container'>
                     <img id='thanks-profile_img' src={content.attributes.path}></img>
                     <div id='people-name'>{content.attributes.name}</div>

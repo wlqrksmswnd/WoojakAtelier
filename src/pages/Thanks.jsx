@@ -21,8 +21,8 @@ export default function Thanks(){
                     <People name='babojunyoung'/>
                     <People name='cy'/>
                     <People name='pixel'/>
-                    <People name='coNaN'/>
                     <People name='meat_male'/>
+                    <People name='coNaN'/>
                     <People name='woojin'/>
                     <People name='eagen'/>
                     <People name='tak'/>

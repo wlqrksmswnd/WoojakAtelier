@@ -1,7 +1,7 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
-import NotFound from "./components/NotFound"
+import NotFound from "./pages/NotFound"
 import Thanks from "./pages/Thanks";
 function Router(){
     return(
