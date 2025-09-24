@@ -1,4 +1,3 @@
-// import People from '../components/People'
 import People from '../components/People'
 import Yeppi from '../components/Yeppi'
 import '../styles/thanks.css'
@@ -10,10 +9,10 @@ export default function Thanks(){
             <div className="thanks-container">
                 <div className="thanks-intro_container">
                     <motion.img id="thanks-img" src="/imgs/walk_doodle.jpg"
-                    initial={{opacity: 0}} animate={{opacity: 1, y:-10}} transition={{duration: 1,delay:0.4}}></motion.img>
+                    initial={{opacity: 0}} animate={{opacity: 1, y:-10}} transition={{duration: 1,delay:0.2}}></motion.img>
                     <div className='thanks-text_container'>
                         <motion.div id='thanks-intro_title'
-                        initial={{opacity: 0}} animate={{opacity: 1, y:-10}} transition={{duration: 1,delay:0.2}}>Thanks To</motion.div>
+                        initial={{opacity: 0}} animate={{opacity: 1, y:-10}} transition={{duration: 1,delay:0.3}}>Thanks To</motion.div>
                         {/* <div id='thanks-intro_text'></div> */}
                     </div>
                 </div>
