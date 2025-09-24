@@ -20,7 +20,9 @@ function Home(){
             </motion.section>
             <motion.section>
             <motion.div className='home-tech_stack_container' initial={{opacity: 0}} animate={{opacity: 1, y:-10}} transition={{duration: 1}}>
-                <div id='home-tech_stack_title'>기술 스택</div>
+                <motion.div id='home-tech_stack_title'
+                 initial={{opacity: 0}} whileInView={{opacity: 1, y:-10}} viewport={{once:true,amount:0.2}} transition={{duration: 1,delay:0.1}}>
+                    기술 스택</motion.div>
                 <div className='home-stack_container'>
                     <StackCard stackname = "HTML"/>
                     <StackCard stackname = "CSS"/>
