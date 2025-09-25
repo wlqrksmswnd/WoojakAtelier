@@ -39,5 +39,6 @@
     box-sizing: border-box;
     padding: 0rem 11rem;
     gap: 5rem;
+    justify-content: center;
     flex-wrap: wrap;
 }
